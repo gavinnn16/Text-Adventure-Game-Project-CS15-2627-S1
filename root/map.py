@@ -1,4 +1,4 @@
-
+# Map
 MAP_ART = """
 ================================================================================
 
@@ -10,7 +10,7 @@ MAP_ART = """
                                       |
         +-----------------------------+-----------------------------+
         |                             |                             |
-  [07. LAB] <---------> [05. CENTRAL HUB] <---------> [08. SECURITY]
+  [07. LAB] <---------> [05. CENTRAL HUB] <---------> [08. SECURITY ROOM]
         ^                             |
         |                             v
   [06. STORAGE] <------------ [04. MED BAY]
@@ -25,13 +25,12 @@ MAP_ART = """
 """
 
 
-from variables import *
-
+# Map Logic
 def check_map(user_choice, has_map_state):
     if user_choice == "m":
         if has_map_state:
             print(MAP_ART)
         else:
-            print("\n>> [MAP OFFLINE] You need to find the Station Map first!\n")
+            print("\n>> You need to find the Map first!\n")
         return True
     return False
