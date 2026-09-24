@@ -7,7 +7,7 @@ has_samples = False
 alien_distracted = False
 has_escapepod_key = False
 game_running = False
-has_map = False
+has_map = True
 
 code_snippet_1 = False # 5
 code_snippet_2 = False # 9
