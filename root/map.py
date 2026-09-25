@@ -17,7 +17,7 @@ MAP_ART = """
                                       |
                                       v
                              [02. MAIN HALLWAY]
-                                  /       \\
+                                  /       \
                                  v         v
                          [01. BEDROOM]   [03. POWER ROOM]
 
