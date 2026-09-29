@@ -255,7 +255,7 @@ while True:
             sleep(1)
             print("""
 You see the Airlock door however its there is an screen that says 'Administrator has locked the door'
-It looks like you need a overide code, you need to find it and enter it.
+It looks like you need a override code, you need to find it and enter it.
             """)
             while True:
                 print("""What would you like to do?
