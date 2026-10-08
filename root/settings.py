@@ -5,7 +5,8 @@ INSTRUCTIONS_ART = r"""
 │     I N S T R U C T I O N S     │
 └─────────────────────────────────┘
 """
-def instructionstxt():
+def instructionstxt() -> None:
+    """Displays sequential introductory story and objectives to the player."""
     while True:
         user_input = input("Type 'Next' when read: ").strip().lower()
 

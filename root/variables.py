@@ -1,6 +1,7 @@
 # Other Essential Variables
 current_room = "Bedroom"
 generator_powered = False
+med_bay_unlocked = "Locked"
 alien_distracted = False
 game_won = False
 
@@ -16,5 +17,5 @@ has_taser = False
 has_samples = False
 has_keycard = False
 has_escape_pod_key = False
-has_map = True
+has_map = False
 
